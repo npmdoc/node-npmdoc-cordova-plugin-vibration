@@ -1,6 +1,6 @@
 # npmdoc-cordova-plugin-vibration
 
-#### api documentation for  [cordova-plugin-vibration (v2.1.4)](https://github.com/apache/cordova-plugin-vibration#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-vibration.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-vibration) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-vibration.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-vibration)
+#### basic api documentation for  [cordova-plugin-vibration (v2.1.4)](https://github.com/apache/cordova-plugin-vibration#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-cordova-plugin-vibration.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-cordova-plugin-vibration) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-vibration.svg)](https://travis-ci.org/npmdoc/node-npmdoc-cordova-plugin-vibration)
 
 #### Cordova Vibration Plugin
 
@@ -105,7 +105,8 @@
         "test": "npm run jshint"
     },
     "types": "./types/index.d.ts",
-    "version": "2.1.4"
+    "version": "2.1.4",
+    "bin": {}
 }
 ```
 
