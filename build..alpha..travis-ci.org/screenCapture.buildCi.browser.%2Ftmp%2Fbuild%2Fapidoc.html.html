@@ -54,12 +54,70 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-vibration">module cordova-plugin-vibration</a><ol>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">cordova-plugin-vibration.</span>Vibration</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.cordova-plugin-vibration.Vibration">module cordova-plugin-vibration.Vibration</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.cordova-plugin-vibration.Vibration.vibrate">
+            function <span class="apidocSignatureSpan">cordova-plugin-vibration.Vibration.</span>vibrate
+            <span class="apidocSignatureSpan">(success, fail, milliseconds)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.cordova-plugin-vibration" id="apidoc.module.cordova-plugin-vibration">module cordova-plugin-vibration</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.cordova-plugin-vibration.Vibration" id="apidoc.module.cordova-plugin-vibration.Vibration">module cordova-plugin-vibration.Vibration</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.cordova-plugin-vibration.Vibration.vibrate" id="apidoc.element.cordova-plugin-vibration.Vibration.vibrate">
+        function <span class="apidocSignatureSpan">cordova-plugin-vibration.Vibration.</span>vibrate
+        <span class="apidocSignatureSpan">(success, fail, milliseconds)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">vibrate = function (success, fail, milliseconds) {
+    console.log('Vibration is not supported');
+    return false;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">...
+
+This function has three different functionalities based on parameters passed to it.
+
+###Standard vibrate
+
+Vibrates the device for a given amount of time.
+
+    navigator.<span class="apidocCodeKeywordSpan">vibrate</span>(time)
+
+or
+
+    navigator.vibrate([time])
+
+
+-__time__: Milliseconds to vibrate the device. _(Number)_
+...</pre></li>
+    </ul>
+
 
 </div>
 
